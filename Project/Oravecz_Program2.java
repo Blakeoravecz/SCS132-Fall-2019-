@@ -1,3 +1,9 @@
+//Project: Oravecz Program 2
+//Author:Blake Oravecz
+//GitHub:Blakeoravecz
+//Descrip:tion: Calculator
+//Date:Sept 23, 2019
+//Version:1.0
 package Oravecz_Program2;
 import java.util.Scanner;
 public class Oravecz_Program2 
@@ -10,6 +16,7 @@ public class Oravecz_Program2
 	int Number3 = 0;
 	char Operator;
 	long Answer = 0;  
+	
 	//Keyboard input
 	  Scanner keyboard = new Scanner
 	  (System.in);
@@ -37,8 +44,10 @@ public class Oravecz_Program2
 	    	 case '/': Answer = Number1 / Number2 / Number3;
 	    	           break;
 	       }
+	     //Final Equation and Answer
 	     System.out.println(Number1+" "+Operator+" "+Number2+" "+" = "+Answer);
 	     
+	            //If-else Statement
 	            if (Answer > Number3) 
 	            	System.out.println(Answer+" "+"is greater than "+Number3+" ");
 	            else
